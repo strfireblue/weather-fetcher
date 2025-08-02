@@ -234,7 +234,7 @@ const fetchWeather = async (
     }
   }
   if (source === "wttr") {
-    const res1 = await fetch("https://wttr.in/?format=4");
+    const res1 = await fetch("https://wttr.in/Cedar Grove,NJ?format=4&u?format=4&u");
     const res2 = await res1.text();
     const newItem = {
       source: source,
